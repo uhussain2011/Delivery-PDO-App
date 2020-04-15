@@ -46,7 +46,7 @@ if($_GET['maxdate'] && $_GET['mindate'] )
     $sql = ' and (start_date >= "'.$_GET['mindate']." 00:00:00".'" AND end_date <= "'.$_GET['maxdate']." 23:59:59".'") ';
 }
 
-$dt->query('Select '.$list.' from consignmentes where 1 and deleted_at IS NULL '.$sql);
+$dt->query('Select '.$list.' from consignmentsh where 1 and deleted_at IS NULL '.$sql);
 
 
 
@@ -79,4 +79,4 @@ $dt->add('action', function ($list) {
                             <a class="btn btn-danger btn small" href="'.$route->route('delete.php',$list->id).'">Delete</a>
                         </div>';
     });
-echo $dt->generate()->toJson(); // same as 'echo $dt->generate()';
+echo $dt->generate()->toJson(); 

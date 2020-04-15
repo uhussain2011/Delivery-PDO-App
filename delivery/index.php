@@ -12,7 +12,7 @@ include_once './layout/header.php'
 
 
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center p-1 ">
-                <h5 class="h5">Consignment</h5>
+                <h5 class="h5">Deliveries</h5>
             </div>
             <?php if (isset($_SESSION["message"])) { ?>
                 <p class="alert <?php echo $_SESSION["type"] ?>"><?php echo  $_SESSION["message"] ?></p>

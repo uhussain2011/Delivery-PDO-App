@@ -6,7 +6,7 @@ include_once './layout/header.php';
 class View extends Dcon {
 
     function GetData($id) {
-       $query = "SELECT *,count FROM consignmentes ,(SELECT count('id') as count FROM consignment_details where consignment_id = ".$id." ) as details    where id =".$id;
+       $query = "SELECT *,count FROM consignmentsh ,(SELECT count('id') as count FROM consignment_details where consignment_id = ".$id." ) as details    where id =".$id;
         $stm = $this->connect()->query($query);
         $rows = $stm->fetch(PDO::FETCH_ASSOC);
        return $rows;

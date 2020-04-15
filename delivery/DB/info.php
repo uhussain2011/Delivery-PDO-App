@@ -1,5 +1,5 @@
 <?php
-$base_path = '/courier/';
+$base_path = '/delivery/';
 session_start();
 
 class Info_class {

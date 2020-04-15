@@ -9,7 +9,7 @@ class DeleteClass extends Dcon  {
         $count->bindParam(":id",$id,PDO::PARAM_INT);
         $count->execute();
 
-        $count=$this->connect()->prepare("DELETE FROM consignmentes WHERE id=:id");
+        $count=$this->connect()->prepare("DELETE FROM consignmentsh WHERE id=:id");
         $count->bindParam(":id",$id,PDO::PARAM_INT);
         $count->execute();
 

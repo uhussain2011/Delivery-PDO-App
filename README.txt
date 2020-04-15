@@ -1,3 +1,3 @@
-Please 'courier' folder in htdocs in xamp.
+'courier' folder in htdocs in xamp.
 
 Import the SQL into phpmyadmin to get the tables. 
