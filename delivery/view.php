@@ -49,7 +49,7 @@ $details = $data->GetDetails($_GET['id']);
 
 ?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 px-4">
-      <a href="/courier">Courier</a>
+      <a href="/delivery">Delivery</a>
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom ">
                 <h1 class="h2">Dashboard</h1>
             </div>

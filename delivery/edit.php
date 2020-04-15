@@ -114,7 +114,7 @@ include_once './layout/header.php';
 ?>
 
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 px-4">
-  <a href="/courier">Courier</a>
+  <a href="/delivery">Delivery</a>
             <div class="my-3 p-3 mt-5 rounded shadow-sm album py-5 bg-light">
                 <h6 class="border-bottom border-gray pb-2 mb-0">Consignment</h6>
                         <form action="#" class="mt-5" method="post" enctype="multipart/form-data">
